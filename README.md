@@ -33,7 +33,7 @@ brew install ffmpeg
 
 Process for multiple json files by given the file pattens
 
-```
+```python
 import main as main
 cur_dir_path = os.path.dirname(os.path.realpath("main.py"))
 main.process_in_batch(cur_dir_path + "/*-t01.json")
